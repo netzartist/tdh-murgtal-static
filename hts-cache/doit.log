@@ -1,0 +1,8 @@
+-qiC2%P%s%u%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "de, en, *" http://archiv.tdh-murgtal.de/archiv.html http://archiv.tdh-murgtal.de/schnellueberblick/ http://archiv.tdh-murgtal.de/aktivitaeten/ http://archiv.tdh-murgtal.de/unterstuetzung/ http://archiv.tdh-murgtal.de/team/ http://archiv.tdh-murgtal.de/kontakt/ http://archiv.tdh-murgtal.de/presse/ http://archiv.tdh-murgtal.de/impressum/ -O1 "W:\HTTrack\tdh-murgtal.de" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+File generated automatically on Sun, 28 Apr 2019 00:11:00, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

@@ -1,0 +1,427 @@
+/*	Style-Definitonen fuer
+	www.tdh-murgtal.de
+	(c) 2002 netzartist.de
+*/
+
+body {
+	font-family: 		Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 		normal;
+	margin-top:			0px;
+	margin-left:		0px;
+	background-color:	#FACA8C;
+}
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #002C5A;
+}
+
+.little_gray {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 10pt;
+	color: #999999;
+}	
+
+.teaser {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 14pt;
+	color: #444444;
+}
+
+.content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 14pt;
+	color: #444444;
+}
+
+td.navi {
+	line-height: 10pt;
+}
+
+.subheadline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.lt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.lt_l {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 8pt;
+}
+
+.mlt {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 10pt;
+}
+
+.datum
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight: normal;
+	}
+	
+.bildlegende {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	line-height: 10pt;
+}
+
+
+a.thinn:link
+	{
+	font-weight: normal;
+	text-decoration: underline;
+	color: #002C5A;
+	}
+
+a.thinn:active
+	{
+	font-weight: normal;
+	text-decoration: none;
+	color: #002C5A;
+	}
+
+a.thinn:visited
+	{
+	font-weight: normal;
+	text-decoration: underline;
+	color: #002C5A;
+	}
+		
+a.thinn:hover
+	{
+	font-weight: normal;
+	text-decoration: none;
+	color: #940000;
+	}
+
+
+
+a:link
+	{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #002C5A;
+	}
+
+a:active
+	{
+	font-weight: bold;
+	text-decoration: none;
+	color: #002C5A;
+	}
+
+a:visited
+	{
+	font-weight: bold;
+	text-decoration: underline;
+	color: #002C5A;
+	}
+		
+a:hover
+	{
+	font-weight: bold;
+	text-decoration: none;
+	color: #940000;
+	}
+
+.menuactive
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 10pt;
+	color: #000000;
+	}	
+
+.submenu
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;	
+	color: #003366;
+	}
+
+.submenuactive
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	}	
+
+a.menulink:link
+	{
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	}
+
+a.menulink:active
+	{
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	}
+
+a.menulink:visited
+	{
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	}
+		
+a.menulink:hover
+	{
+	text-decoration: none;
+	color: #FFFFFF;
+	}
+
+	
+.menu 
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	}
+
+a.menu:link
+	{
+	text-decoration: none;
+	font-weight: normal;
+	color: #000000;
+	}
+	
+a.menu:visited
+	{
+	text-decoration: none;
+	font-weight: normal;
+	color: #000000;
+	}
+
+a.menu:visited:hover
+	{
+	text-decoration: none;
+	font-weight: normal;
+	color: #000000;
+	}	
+
+a.menu:hover
+	{
+	text-decoration: none;
+	font-weight: normal;
+	color: #000000;
+	}
+
+a.menu:active
+	{
+	text-decoration: none;
+	font-weight: normal;
+	color: #000000;
+	}
+	
+	
+	
+	
+
+	
+.topnavi 
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ffffff;
+	}
+
+a.topnavi:link
+	{
+	text-decoration: none;
+	font-weight: normal;
+	color: #ffffff;
+	}
+
+a.topnavi:visited
+	{
+	text-decoration: none;
+	font-weight: normal;
+	color: #ffffff;
+	}
+
+a.topnavi:visited:hover
+	{
+	text-decoration: none;
+	font-weight: normal;
+	color: #ffffff;
+	}
+	
+a.topnavi:hover
+	{
+	text-decoration: none;
+	font-weight: normal;
+	color: #ffffff;
+	}
+
+a.topnavi:active
+	{
+	text-decoration: none;
+	font-weight: normal;
+	color: #ffffff;
+	}
+	
+	
+	
+	
+	
+			
+.statustext
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	}	
+
+.sponsorenliste
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #e5e5e5;
+	}
+
+a.sponsorenliste:link
+	{
+	text-decoration: none;
+	font-weight: normal;
+	}
+
+a.sponsorenliste:hover
+	{
+	text-decoration: none;
+	color: #990000;
+	background: #F5f5f5;
+	}
+
+a.sponsorenliste:visited
+	{
+	text-decoration: none;
+	font-weight: normal;
+	}
+	
+.sponsoren
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #003366;
+	}
+	
+.includefile
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* font-size: 14px; */
+	color: #000000;
+	text-align: justify;
+	align: justify;
+	}
+
+.headline
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	}
+	
+a.headline:link
+	{
+	color: #ffffff;
+	}
+	
+a.headline:hover
+	{
+	color: #ffffff;
+	}
+
+a.headline:visited
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	}
+
+a.headline:active
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	}
+		
+.credits
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	}
+
+a.credits:link
+	{
+	text-decoration: none;
+	}
+
+a.credits:hover
+	{
+	text-decoration: none;
+	color: #990000;
+	background: #F5f5f5;
+	}
+
+a.credits:visited
+	{
+	text-decoration: none;
+	font-weight: normal;
+	}
+
+a.credits:active
+	{
+	text-decoration: none;
+	font-weight: normal;
+	}
+	
+.subheading
+	{
+	font-weight: bold;
+	font-color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	}
+	
+.textfield
+	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	}
