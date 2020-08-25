@@ -33,18 +33,7 @@ function HLoff(lnk,outcolor)
 }
 
 function showImg(ziel,breite,hoehe) {
-
-	var breite=breite+10;
-	var hoehe=hoehe+60;
-	var	ho	=	screen.availHeight;
-	var	br	=	screen.availWidth;
-
-	var params="width="+breite+",height="+hoehe+",resize=no,menubar=no,resizable=no";
-	picwin=window.open("/wait.html","Detailansicht",params);
-	picwin.document.location.href="/display.html?pic="+ziel;
-	picwin.moveTo(Math.round((br-breite)/2),Math.round((ho-hoehe)/2));
-	picwin.focus();
-
+	window.open(ziel, '_blank');
 }
 
 function Aktionshinweis(url,name,w,h) {
@@ -93,7 +82,7 @@ function Check()
 		{
 		if ((re_email.test(email)==false))
 			{
-			alert ("Bitte gültige Emailadresse eingeben.");
+			alert ("Bitte gï¿½ltige Emailadresse eingeben.");
 			document.gb.email.focus();
 			ok=false;
 			return ok;
@@ -139,7 +128,7 @@ function Check2()
 		{
 		if ((re_email.test(email)==false))
 			{
-			alert ("Bitte gültige Emailadresse eingeben.");
+			alert ("Bitte gï¿½ltige Emailadresse eingeben.");
 			document.kontakt.email.focus();
 			ok=false;
 			return ok;
@@ -162,7 +151,7 @@ function Check2()
 	}
 	
 function Check3()
-// powerkids - vorschläge
+// powerkids - vorschlï¿½ge
 	
 	{
 	var ok=false;
@@ -192,7 +181,7 @@ function Check3()
 		{
 		if ((re_email.test(email)==false))
 			{
-			alert ("Bitte überprüfe Deine Emailadresse.");
+			alert ("Bitte ï¿½berprï¿½fe Deine Emailadresse.");
 			document.vorschlag.email.focus();
 			ok=false;
 			return ok;
@@ -228,7 +217,7 @@ function Check4()
 
 	if ((re_email.test(email)==false))
 		{
-		alert ("Bitte gültige Absender-Emailadresse eingeben.");
+		alert ("Bitte gï¿½ltige Absender-Emailadresse eingeben.");
 		document.weiterempfehlen.email.focus();
 		ok=false;
 		return ok;
@@ -236,7 +225,7 @@ function Check4()
 	
 	if ((re_email.test(emailempf)==false))
 		{
-		alert ("Bitte gültige Emailadresse des Empfaengers eingeben.");
+		alert ("Bitte gï¿½ltige Emailadresse des Empfaengers eingeben.");
 		document.weiterempfehlen.emailempf.focus();
 		ok=false;
 		return ok;
@@ -277,7 +266,7 @@ function Check5()
 	
 		if ((re_email.test(email)==false))
 			{
-			alert ("Bitte überprüfen Sie die Schreibweise Ihrer Emailadresse.");
+			alert ("Bitte ï¿½berprï¿½fen Sie die Schreibweise Ihrer Emailadresse.");
 			document.newsletter.email.focus();
 			ok=false;
 			return ok;
@@ -341,7 +330,7 @@ function Check6()
 		{
 		if ((re_email.test(email)==false))
 			{
-			alert ("Bitte überprüfen Sie die Schreibweise Ihrer Emailadresse.");
+			alert ("Bitte ï¿½berprï¿½fen Sie die Schreibweise Ihrer Emailadresse.");
 			document.vorschlag.vorschlag_email.focus();
 			ok=false;
 			return ok;
